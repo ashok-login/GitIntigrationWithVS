@@ -20,11 +20,13 @@ namespace GitIntigrationWithVS.Controllers
 
         public IActionResult Index()
         {
+            ViewBag.Message = "One associate modified Index() action method inside Ashok branch";
             return View();
         }
 
         public IActionResult Privacy()
         {
+            ViewBag.Message = "One associate modified Privacy() action method inside Ashok branch";
             return View();
         }
 
