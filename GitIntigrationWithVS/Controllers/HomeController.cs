@@ -26,7 +26,7 @@ namespace GitIntigrationWithVS.Controllers
 
         public IActionResult Privacy()
         {
-            ViewBag.Message = "One associate modified Privacy() action method inside Ashok branch";
+            ViewBag.Message = "One another associate modified Privacy() action method inside Ashok1 branch but committed the branch once after Ashok has pushed changes to master branch";
             return View();
         }
 
