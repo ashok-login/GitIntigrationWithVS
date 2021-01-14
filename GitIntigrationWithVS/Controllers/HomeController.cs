@@ -25,6 +25,7 @@ namespace GitIntigrationWithVS.Controllers
 
         public IActionResult Privacy()
         {
+            ViewBag.Message = "Privacy method has been modified by Ashok1 inside Ashok branch";
             return View();
         }
 
