@@ -20,11 +20,13 @@ namespace GitIntigrationWithVS.Controllers
 
         public IActionResult Index()
         {
+            ViewBag.Message = "This code has been added by Ashok inside Ashok branch";
             return View();
         }
 
         public IActionResult Privacy()
         {
+            ViewBag.Message = "Privacy() action method has been modified by Ashok inside Ashok branch";
             return View();
         }
 
