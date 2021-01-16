@@ -20,11 +20,13 @@ namespace GitIntigrationWithVS.Controllers
 
         public IActionResult Index()
         {
+            ViewBag.Message = "This modification is from Ashok branch.";
             return View();
         }
 
         public IActionResult Privacy()
         {
+            ViewBag.Message = "This modification is from Ashok branch";
             return View();
         }
 
