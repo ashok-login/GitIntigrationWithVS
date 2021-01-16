@@ -20,11 +20,13 @@ namespace GitIntigrationWithVS.Controllers
 
         public IActionResult Index()
         {
+            ViewBag.Message = "Code modified by Ashok as per the new requirement";
             return View();
         }
 
         public IActionResult Privacy()
         {
+            ViewBag.Message = "Code modified by Ashok1 as per the new requirement";
             return View();
         }
 
