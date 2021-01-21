@@ -25,7 +25,7 @@ namespace GitIntigrationWithVS.Controllers
 
         public IActionResult Privacy()
         {
-            ViewBag.Message = "Final changes done by Ashok1 as per the latest requirement.";
+            ViewBag.Message = "Code modified inside Privacy() action method by Ashok as per the new requirement";
             return View();
         }
 
