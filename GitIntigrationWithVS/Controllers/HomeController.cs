@@ -20,7 +20,6 @@ namespace GitIntigrationWithVS.Controllers
 
         public IActionResult Index()
         {
-            ViewBag.Message = "Code modified by Ashok as per the new requirement";
             return View();
         }
 
